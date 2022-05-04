@@ -15,7 +15,7 @@
 
 &{/} {
 	arduino: arduino {
-		compatible = "arduino,uno";
+		compatible = "arduino,uno-irq";
 		interrupt-parent = <&gpio>;
 		interrupts = <17 1>;
 		status = "ok";
