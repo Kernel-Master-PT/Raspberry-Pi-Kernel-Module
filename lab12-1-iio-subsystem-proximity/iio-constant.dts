@@ -1,0 +1,12 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+  compatible = "brcm,bcm2835";
+};
+&{/} {
+  iio_constant: iio_constant {
+    compatible = "iio,constant";
+    status = "okay";
+  };
+};
